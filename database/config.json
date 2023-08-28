@@ -1,0 +1,23 @@
+{
+  "cuda": true,
+  "model": "lenet-5",
+  "input_shape": [
+    32,
+    32
+  ],
+  "output_channels": 2,
+  "datasets_root": "D:/datasets",
+  "database_root": "./database",
+  "logs_root": "./logs",
+  "class_names": [
+    "cat",
+    "dog"
+  ],
+  "batch_size": 16,
+  "loss_function_type": "CE",
+  "optimizer_type": "SGD",
+  "lr": 0.001,
+  "epoch": 500,
+  "save_parameters_period": 10,
+  "parameters_path": "./logs/2023-08-28-03_42_49/parameters/model_parameters_200.pkl"
+}
